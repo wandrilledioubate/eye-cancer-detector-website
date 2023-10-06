@@ -1,0 +1,75 @@
+.uploader-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding-left: 100px;
+}
+
+.dropzone {
+    flex: 1;
+    border: 1px dashed #a9a9a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.uploaded-files {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.file-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.analyze-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+.uploader-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+.drag-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.drag-or {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.drag-size {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+}
+
+.drag-type {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+}
